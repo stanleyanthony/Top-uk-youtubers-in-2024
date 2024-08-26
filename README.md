@@ -39,6 +39,7 @@ This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/
 
 ## Tools
 
+
 | Tools | Purpose |
 | ----- | ------- |
 | Excel | Exploring the data and testing |
@@ -99,7 +100,7 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 
 1. There are at least 4 columns that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
 
-2. The first column contains the channel ID with what appears to be channel IDS, which are separated by a @ symbol - we need to extract the channel names from this.
+2. The first column contains the channel ID with what appears to be channel IDs, which are separated by a @ symbol - we need to extract the channel names from this.
 
 3. Some of the cells and header names are in a different language - we need to confirm if these columns are needed, and if so, we need to address them.
 
@@ -119,10 +120,12 @@ The cleaned data should meet the following criteria and constraints:
 
 Below is a table outlining the constraints on our cleaned dataset:
 
+
 | Property | Constraint |
 | -------- | ---------- |
 | Number of rows | 100 |
 | Number of column | 4 |
+
 
 And here is a tabular representation of the expected schema for the clean data:
 
