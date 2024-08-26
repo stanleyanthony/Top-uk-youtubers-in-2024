@@ -33,6 +33,14 @@ We need data of the top 100 YouTubers in the United Kingdom in 2024, that includ
 
 This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
+## Tools
+
+| Tools | Purpose |
+| Excel | Exploring the data and testing |
+| Sql Server | Cleaning, testing, and analyzing the data |
+| Power BI | Visualing the data through interactive dashboard |
+| GitHub | Hosting projects documentation and version control |
+
 ## Stages for Analysis
 
 - Design
@@ -41,8 +49,21 @@ This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/
 - Analysis
 
 ## Design
----------
+
 ### Dashboard Component Requirements
+
+- First we firgured out what the dashboard should contain based on the requirements provided?
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
+
 
 
 
