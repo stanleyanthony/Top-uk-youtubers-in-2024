@@ -33,6 +33,16 @@ We need data of the top 100 YouTubers in the United Kingdom in 2024, that includ
 
 This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
+## Stages for Analysis
+
+- Design
+- Development
+- Testing
+- Analysis
+
+## Design
+---------
+### Dashboard Component Requirements
 
 
 
