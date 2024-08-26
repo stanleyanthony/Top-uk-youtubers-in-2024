@@ -36,13 +36,13 @@ This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/
 ## Tools
 
 | Tools | Purpose |
-| --- | --- |
+|---|---|
 | Excel | Exploring the data and testing |
-| --- | --- |
+|---|---|
 | Sql Server | Cleaning, testing, and analyzing the data |
-| --- | --- |
+|---|---|
 | Power BI | Visualing the data through interactive dashboard |
-| --- | --- |
+|---|---|
 | GitHub | Hosting projects documentation and version control |
 
 ## Stages for Analysis
