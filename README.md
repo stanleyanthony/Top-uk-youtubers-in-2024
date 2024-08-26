@@ -54,7 +54,9 @@ This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/
 - Testing
 - Analysis
 
+
 ## Design
+
 
 ### Dashboard Component Requirements
 
@@ -70,7 +72,9 @@ To understand what it should contain, we need to figure out what questions we ne
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
+
 ## Development
+
 
 ### Pseodocode 
 
@@ -86,6 +90,7 @@ For now, these are some of the questions we need to answer, this may change as w
 7. Write the documentation + commentary
 8. Publish the data to GitHub Pages
 
+
 ### Data Exploration Note 
 
 This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc
@@ -99,6 +104,7 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 3. Some of the cells and header names are in a different language - we need to confirm if these columns are needed, and if so, we need to address them.
 
 4. We have more data than we need, so some of these columns would need to be removed.
+
 
 ### Data Cleaning 
 
