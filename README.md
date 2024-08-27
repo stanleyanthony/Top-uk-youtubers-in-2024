@@ -1,6 +1,38 @@
 # Analyzing Data of The Top YouTubers In UK 2024
 
 
+## Table of Content
+
+- [Objective](#objective)
+- [Data Source](#data-source)
+- [Stages](#stages)
+- [Design](#design)
+- [Tools](#tools)
+- [Development](#development)
+	- [Pseudocode](#pseudocode)
+	- [Data Exploration](#data-exploration)
+	- [Data Cleaning](#data-cleaning)
+	- [Transform the Data](#transform-the-data)
+Create the SQL View
+Testing
+Data Quality Tests
+Visualization
+Results
+DAX Measures
+Analysis
+Findings
+Validation
+Discovery
+Recommendations
+Potential ROI
+Potential Courses of Actions
+Conclusion
+
+
+
+
+
+
 ## **Project Overview**
 
 - The pain point
