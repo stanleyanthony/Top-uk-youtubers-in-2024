@@ -26,13 +26,6 @@
 - [Conclusion](#conclusion)
 
 
-
-
-
-
-
-
-
 ## **Project Overview**
 
 - The pain point
