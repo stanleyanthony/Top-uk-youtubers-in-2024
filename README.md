@@ -10,23 +10,20 @@
 - [Tools](#tools)
 - [Development](#development)
 	- [Pseudocode](#pseudocode)
-	- [Data Exploration](#data-exploration)
+	- [Data Exploration Note](#data-exploration-note)
 	- [Data Cleaning](#data-cleaning)
-	- [Transform the Data](#transform-the-data)
-Create the SQL View
-Testing
-Data Quality Tests
-Visualization
-Results
-DAX Measures
-Analysis
-Findings
-Validation
-Discovery
-Recommendations
-Potential ROI
-Potential Courses of Actions
-Conclusion
+- [Testing](#testing)
+- [Visualization](#visualization)
+	- [Result](#result) 
+	- [DAX Measures](#dax-measures)
+- [Analysis](#analysis)
+	- [Findings](#findings)
+	- [Validation](#validation)
+	- [Discovery](#discovery)
+- [Recommendations](#recommendations)
+	- [Potential ROI](#potential-roi)
+	- [Potential Action Plan](#potential-action-plan)
+- [Conclusion](#conclution)
 
 
 
@@ -256,12 +253,17 @@ HAVING
 
 ## **Visualization**
 
+
+### Result
+
 What the dashboard look like?
 
 ![Top UK YouTubers in 2024](assets/images/Top UK Youtubers 2024 Dashboard Image.png)
 
 
-### The Dax measures used to develop the dashboard
+### Dax measures 
+
+The Dax measures used to develop the dashboard
 
 - Total Subscribers (M):
 
@@ -669,7 +671,7 @@ ORDER BY
 ```
 
 
-## Discovery 
+### Discovery 
 
 - What did we learn?
 
@@ -699,13 +701,16 @@ What ROI do we expect if we decide to go with this channels?
 4. NoCopyrightSounds could profit the client $642,000 per video too (which is worth considering)
 
 
-### Action Plan
+### Potential Action Plan
 
 - What course of action should be taken and why?
 
-Based on our analysis, we beieve the best channel to advance a long-term partnership deal with to promote the client's products is the Dan Rhodes channel.
+Based on our analysis, we believe the best channel to advance a long-term partnership deal with to promote the client's products is Dan Rhodes channel.
 
 We'll have conversations with the marketing client to forecast what they also expect from this collaboration. Once we observe we're hitting the expected milestones, we'll advance with potential partnerships with DanTDM, Mister Max and NoCopyrightSounds channels in the future.
+
+
+## Conclusion
 
 - What steps do we take to implement the recommended decisions effectively?
 
