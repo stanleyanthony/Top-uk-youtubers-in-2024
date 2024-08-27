@@ -231,7 +231,7 @@ What the dashboard look like?
 
 ### The Dax measures used to develop the dashboard
 
-1. Total Subscribers (M):
+- Total Subscribers (M):
 
 ```
 Total Subscribers (M) = 
@@ -242,7 +242,7 @@ VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
 RETURN totalSubscribers
 ```
 
-2. Total Views (B):
+- Total Views (B):
 
 ```
 Total Views (B) = 
@@ -253,7 +253,7 @@ VAR totalViews = ROUND(sumOfTotalViews / billion, 2)
 RETURN totalViews
 ```
 
-3. Total Videos:
+- Total Videos:
 
 ```
 Total Videos = 
@@ -262,7 +262,7 @@ VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
 RETURN totalVideos
 ```
 
-4. Average Views Per Video:
+- Average Views Per Video:
 
 ```
 Average Views per Video (M) = 
@@ -274,7 +274,7 @@ VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
 RETURN finalAvgViewsPerVideo 
 ```
 
-5. Subscribers Engagement Rate:
+- Subscribers Engagement Rate:
 
 ```
 Subscriber Engagement Rate = 
@@ -285,7 +285,7 @@ VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
 RETURN subscriberEngRate 
 ```
 
-6. Views Per Subscriber:
+- Views Per Subscriber:
 
 ```
 Views Per Subscriber = 
@@ -314,7 +314,7 @@ Here are the key questions we need to answer for our marketing client:
 
 ---
 
-1. Who are the top 10 YouTubers with the most subscribers?
+- 1. Who are the top 10 YouTubers with the most subscribers?
 
 | Rank | Channel Name | Subscribers (M) |
 | ---- | ------------ | ----------- |
@@ -329,7 +329,7 @@ Here are the key questions we need to answer for our marketing client:
 | 9 | Sidemen | 21.00 |
 | 10 | Ali-A | 18.90 |
 
-2. Which 3 channels have uploaded the most videos?
+- 2. Which 3 channels have uploaded the most videos?
 
 | Rank | Chennel Name | Video Upload |
 | ---- | ------------ | ------------ |
@@ -337,7 +337,7 @@ Here are the key questions we need to answer for our marketing client:
 | 2 | Manchester City | 8,248 |
 | 3 | Yogscast | 6,435 |
 
-3. Which 3 channels have the most views?
+- 3. Which 3 channels have the most views?
 
 | Rank | Channel Name | Total Views (B) |
 | ---- | ------------ | --------------- |
@@ -345,7 +345,7 @@ Here are the key questions we need to answer for our marketing client:
 | 2 | Dan Rhodes | 18.56 |
 | 3 | Mister Max | 15.97 |
 
-4. Which 3 channels have the highest average views per video?
+- 4. Which 3 channels have the highest average views per video?
 
 | Rank | Channel Name | Avg Views Per Video (M) |
 | ---- | ------------ | ------------------- |
@@ -353,7 +353,7 @@ Here are the key questions we need to answer for our marketing client:
 | 2 | Jessie J | 5.97 |
 | 3 | Dua Lipa | 5.76 |
 
-5. Which 3 channels have the highest views per subscriber ratio?
+- 5. Which 3 channels have the highest views per subscriber ratio?
 
 | Rank | Channel Name | Views Per Subscriber |
 | ---- | ------------ | -------------------- |
@@ -361,7 +361,7 @@ Here are the key questions we need to answer for our marketing client:
 | 2 | Nickelodeon | 1061.04 |
 | 3 | Disney Junior UK | 1031.97 |
 
-6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+- 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 | Rank | Channel Name | Subscriber Engagemnt Rate |
 | ---- | ------------ | ------------------------- |
