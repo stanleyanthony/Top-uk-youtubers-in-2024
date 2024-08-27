@@ -23,7 +23,7 @@
 - [Recommendations](#recommendations)
 	- [Potential ROI](#potential-roi)
 	- [Potential Action Plan](#potential-action-plan)
-- [Conclusion](#conclution)
+- [Conclusion](#conclusion)
 
 
 
@@ -416,7 +416,7 @@ For this analysis, we'll prioritize analysing the metrics that are important in 
 - videos uploaded
 
 
-### Vlidation 
+### Validation 
 
 
 #### 1. YouTubers with the most subscribers
@@ -681,7 +681,7 @@ ORDER BY
 4. Entertainment channels are useful for broader reach, as the channels posting consistently on their platforms and generating the most engagement are focus on entertainment and music
 
 
-## Recommendation
+## Recommendations
 
 - What do you recommend based on the insight gathered?
 
