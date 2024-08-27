@@ -3,11 +3,11 @@
 
 ## Table of Content
 
-- [Objective](#objective)
+- [Project Overview](#project-overview)
 - [Data Source](#data-source)
-- [Stages](#stages)
-- [Design](#design)
 - [Tools](#tools)
+- [Stages for Analysis](#stages-for-analysis)
+- [Design](#design)
 - [Development](#development)
 	- [Pseudocode](#pseudocode)
 	- [Data Exploration Note](#data-exploration-note)
