@@ -144,7 +144,7 @@ And here is a tabular representation of the expected schema for the clean data:
 3. Rename columns using aliases
 
 ## Visualization
-
+![Top UK YouTubers in 2024](assets/images/Top UK Youtubers 2024 Dashboard Image.png)
 
 
 
