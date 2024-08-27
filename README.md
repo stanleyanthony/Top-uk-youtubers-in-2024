@@ -144,8 +144,23 @@ And here is a tabular representation of the expected schema for the clean data:
 3. Rename columns using aliases
 
 ## Visualization
+
+What the dashboard look like?
+
 ![Top UK YouTubers in 2024](assets/images/Top UK Youtubers 2024 Dashboard Image.png)
 
+### The Dax measures used to develop the dashboard
+
+1. Total subscribers:
+
+```
+Total Subscribers (M) = 
+VAR million = 1000000
+VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
+
+RETURN totalSubscribers
+```
 
 
 
