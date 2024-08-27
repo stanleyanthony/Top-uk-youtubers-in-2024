@@ -27,9 +27,6 @@
 
 
 
-
-
-
 ## **Project Overview**
 
 - The pain point
