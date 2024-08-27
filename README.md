@@ -53,6 +53,7 @@ This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/
 - Design
 - Development
 - Testing
+- Visualization
 - Analysis
 
 
@@ -143,6 +144,84 @@ And here is a tabular representation of the expected schema for the clean data:
 2. Extract Youtube channel names from the first column
 3. Rename columns using aliases
 
+
+## Testing
+
+- What data quality and validation checks are we going to create?
+
+Here are the SQL query data quality tests i conducted:
+
+1. Row count check
+
+```
+/*
+# Count the total number of records (or rows) are in the SQL view
+*/
+
+SELECT
+    COUNT(*) AS no_of_rows
+FROM
+    view_uk_youtubers_2024;
+```
+
+2. Column count check
+
+```
+/*
+# Count the total number of columns (or fields) are in the SQL view
+*/
+
+SELECT
+    COUNT(*) AS column_count
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'view_uk_youtubers_2024'
+```
+
+3. Data type check
+
+```
+/*
+# Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+*/
+
+-- 1.
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'view_uk_youtubers_2024';
+```
+
+4. Duplicate count check
+
+```
+/*
+# 1. Check for duplicate rows in the view
+# 2. Group by the channel name
+# 3. Filter for groups with more than one row
+*/
+
+-- 1.
+SELECT
+    channel_name,
+    COUNT(*) AS duplicate_count
+FROM
+    view_uk_youtubers_2024
+
+-- 2.
+GROUP BY
+    channel_name
+
+-- 3.
+HAVING
+    COUNT(*) > 1;
+```
+
+
 ## Visualization
 
 What the dashboard look like?
@@ -163,7 +242,7 @@ VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
 RETURN totalSubscribers
 ```
 
-### Total Views (B):
+2. Total Views (B):
 
 ```
 Total Views (B) = 
@@ -174,7 +253,7 @@ VAR totalViews = ROUND(sumOfTotalViews / billion, 2)
 RETURN totalViews
 ```
 
-### Total Videos:
+3. Total Videos:
 
 ```
 Total Videos = 
@@ -183,7 +262,7 @@ VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
 RETURN totalVideos
 ```
 
-### Average Views Per Video:
+4. Average Views Per Video:
 
 ```
 Average Views per Video (M) = 
@@ -195,7 +274,7 @@ VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
 RETURN finalAvgViewsPerVideo 
 ```
 
-### Subscribers Engagement Rate:
+5. Subscribers Engagement Rate:
 
 ```
 Subscriber Engagement Rate = 
@@ -206,7 +285,7 @@ VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
 RETURN subscriberEngRate 
 ```
 
-### Views Per Subscriber:
+6. Views Per Subscriber:
 
 ```
 Views Per Subscriber = 
