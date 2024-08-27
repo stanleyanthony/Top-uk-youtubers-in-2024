@@ -107,7 +107,7 @@ For now, these are some of the questions we need to answer, this may change as w
 ## **Development**
 
 
-### Pseodocode 
+### Pseudocode 
 
 - What's the general approach in creating this solution from start to finish?
 
