@@ -387,7 +387,7 @@ For this analysis, we'll prioritize analysing the metrics that are important in 
 
 #### 1. YouTubers with the most subscribers
 
-##### Calculation Breakdown
+#### Calculation Breakdown
 
 Canpaign Idea = Product placement
 
@@ -470,7 +470,7 @@ ORDER BY
 ```
 
 
-### YouTuber with the most video uploaded
+### 2. YouTuber with the most video uploaded
 
 #### Calculation breakdown
 
@@ -553,7 +553,7 @@ ORDER BY
 ```
 
 
-### Youubers with the most views
+### 3. Youubers with the most views
 
 #### Calculation breakdown
 
@@ -640,8 +640,6 @@ ORDER BY
 ## Discovery 
 
 - What did we learn?
-
-We discovered that
 
 1. NoCopyrightSOunds, Dan Rhodes and DanTDM are the channnels with the most subscribers in the UK
 2. GRM Daily, Man City and Yogscast are the channels with the most videos uploaded
