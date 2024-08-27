@@ -327,8 +327,7 @@ Here are the key questions we need to answer for our marketing client:
 | 7 | Jelly | 23.50 |
 | 8 | Dua Lipa | 23.30 |
 | 9 | Sidemen | 21.00 |
-| 10 | Ali-A | 18.90 |
-
+| 10 | Ali-A | 18.90 |.
 
 2. Which 3 channels have uploaded the most videos?
 
@@ -336,8 +335,7 @@ Here are the key questions we need to answer for our marketing client:
 | ---- | ------------ | ------------ |
 | 1 | GRM Daily | 14,696 |
 | 2 | Manchester City | 8,248 |
-| 3 | Yogscast | 6,435 |
-
+| 3 | Yogscast | 6,435 |.
 
 3. Which 3 channels have the most views?
 
@@ -345,8 +343,7 @@ Here are the key questions we need to answer for our marketing client:
 | ---- | ------------ | --------------- |
 | 1 | DanTDM | 19.78 |
 | 2 | Dan Rhodes | 18.56 |
-| 3 | Mister Max | 15.97 |
-
+| 3 | Mister Max | 15.97 |.
 
 4. Which 3 channels have the highest average views per video?
 
@@ -354,8 +351,7 @@ Here are the key questions we need to answer for our marketing client:
 | ---- | ------------ | ------------------- |
 | 1 | Mark Ronson | 32.27 |
 | 2 | Jessie J | 5.97 |
-| 3 | Dua Lipa | 5.76 |
-
+| 3 | Dua Lipa | 5.76 |.
 
 5. Which 3 channels have the highest views per subscriber ratio?
 
@@ -363,8 +359,7 @@ Here are the key questions we need to answer for our marketing client:
 | ---- | ------------ | -------------------- |
 | 1 | GRM Daily | 1185.79 |
 | 2 | Nickelodeon | 1061.04 |
-| 3 | Disney Junior UK | 1031.97 |
-
+| 3 | Disney Junior UK | 1031.97 |.
 
 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
