@@ -129,10 +129,22 @@ Below is a table outlining the constraints on our cleaned dataset:
 
 And here is a tabular representation of the expected schema for the clean data:
 
+
+| Column Name | Data Type | Nullable |
+| ----------- | --------- | -------- |
+| channel_name| VARCHAR | NO |
+| total_subscribers | INT | NO |
+| total_views | INT | NO |
+| total_videos | INT | NO |
+
+
  What steps are needed to clean and shape the data into the desired format?
 1. Remove unnecessary columns by only selecting the ones you need
 2. Extract Youtube channel names from the first column
 3. Rename columns using aliases
+
+## Visualization
+
 
 
 
