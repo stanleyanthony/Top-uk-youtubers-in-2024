@@ -1,7 +1,7 @@
 # Analyzing The Top YouTubers In UK 2024
 
 
-## Project Overview
+## **Project Overview**
 
 - The pain point
 
@@ -18,14 +18,14 @@ To create a dashboard that provide insights into the top YouTubers in the United
 These key metrics will help decide on which YouTuber to collaborate with to run marketing campaigns.
 
 
-## User Story
+## **User Story**
 
 As the Head of Marketing, I want to use a dashboard that analyses YouTube channel data in the United Kingdom.
 This dashboard should allow me to identify the top performing channels based on metrics like subscriber base and average views.
 With this information, I can make more informed decisions about which Youtubers are best to collaborate with, and therefore maximize how effective each marketing campaign is.
 
 
-## Data Source
+## **Data Source**
 
 We need data of the top 100 YouTubers in the United Kingdom in 2024, that includes:
 
@@ -37,7 +37,7 @@ We need data of the top 100 YouTubers in the United Kingdom in 2024, that includ
 This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
 
-## Tools
+## **Tools**
 
 
 | Tools | Purpose |
@@ -48,7 +48,7 @@ This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/
 | GitHub | Hosting projects documentation and version control |
 
 
-## Stages for Analysis
+## **Stages for Analysis**
 
 - Design
 - Development
@@ -57,7 +57,7 @@ This data is sourced from Kaggle [Get it here!](https://www.kaggle.com/datasets/
 - Analysis
 
 
-## Design
+## **Design**
 
 
 ### Dashboard Component Requirements
@@ -75,7 +75,7 @@ To understand what it should contain, we need to figure out what questions we ne
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
 
-## Development
+## **Development**
 
 
 ### Pseodocode 
@@ -145,7 +145,7 @@ And here is a tabular representation of the expected schema for the clean data:
 3. Rename columns using aliases
 
 
-## Testing
+## **Testing**
 
 What data quality and validation checks are we going to create?
 
@@ -222,7 +222,7 @@ HAVING
 ```
 
 
-## Visualization
+## **Visualization**
 
 What the dashboard look like?
 
@@ -297,7 +297,7 @@ RETURN viewsPerSubscriber
 ```
 
 
-## Analysis 
+## **Analysis**
 
 ### Findings
 
