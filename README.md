@@ -153,14 +153,14 @@ What the dashboard look like?
 
 1. Total subscribers:
 
-```
-Total Subscribers (M) = 
-VAR million = 1000000
-VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
-VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
 
-RETURN totalSubscribers
-```
+    Total Subscribers (M) = 
+    VAR million = 1000000
+    VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+    VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
+
+    RETURN totalSubscribers
+
 
 
 
