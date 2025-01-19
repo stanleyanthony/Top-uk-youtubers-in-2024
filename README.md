@@ -174,12 +174,11 @@ And here is a tabular representation of the expected schema for the clean data:
 
 What data quality and validation checks are we going to create?
 
-Here are the SQL query data quality tests i conducted:
+Here are the SQL query data quality tests I conducted:
 
-1. Row count check
+### 1. Row count check
 
-```
-# Count the total number of records (or rows) are in the SQL view
+#### Count the total number of records (or rows) are in the SQL view
 
 ```SQL
 SELECT
@@ -187,13 +186,12 @@ SELECT
 FROM
     view_uk_youtubers_2024;
 ```
-```
-2. Column count check
-```
-/*
-# Count the total number of columns (or fields) are in the SQL view
-*/
-```
+
+### 2. Column count check
+
+#### Count the total number of columns (or fields) are in the SQL view
+
+
 ```SQL
 SELECT
     COUNT(*) AS column_count
@@ -203,14 +201,13 @@ WHERE
     TABLE_NAME = 'view_uk_youtubers_2024'
 ```
 
-3. Data type check
+### 3. Data type check
 
-```
-/*
-# Check the data types of each column from the view by checking the INFORMATION SCHEMA view
-*/
 
--- 1.
+
+#### Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+
+```SQL
 SELECT
     COLUMN_NAME,
     DATA_TYPE
@@ -220,16 +217,13 @@ WHERE
     TABLE_NAME = 'view_uk_youtubers_2024';
 ```
 
-4. Duplicate count check
+### 4. Duplicate count check
 
-```
-/*
-# 1. Check for duplicate rows in the view
-# 2. Group by the channel name
-# 3. Filter for groups with more than one row
-*/
+#### 1. Check for duplicate rows in the view
+#### 2. Group by the channel name
+#### 3. Filter for groups with more than one row
 
--- 1.
+```SQL -- 1.
 SELECT
     channel_name,
     COUNT(*) AS duplicate_count
