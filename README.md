@@ -178,11 +178,12 @@ Here are the SQL query data quality tests i conducted:
 
 1. Row count check
 
-```
+
 /*
 # Count the total number of records (or rows) are in the SQL view
 */
 
+```SQL
 SELECT
     COUNT(*) AS no_of_rows
 FROM
