@@ -257,7 +257,7 @@ The Dax measures used to develop the dashboard
 
 - Total Subscribers (M):
 
-```DAX
+```dax
 Total Subscribers (M) = 
 VAR million = 1000000
 VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
@@ -268,7 +268,7 @@ RETURN totalSubscribers
 
 - Total Views (B):
 
-```
+```dax
 Total Views (B) = 
 VAR billion = 1000000000
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
@@ -279,7 +279,7 @@ RETURN totalViews
 
 - Total Videos:
 
-```
+```dax
 Total Videos = 
 VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
 
@@ -288,7 +288,7 @@ RETURN totalVideos
 
 - Average Views Per Video:
 
-```
+```dax
 Average Views per Video (M) = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
 VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
@@ -300,7 +300,7 @@ RETURN finalAvgViewsPerVideo
 
 - Subscribers Engagement Rate:
 
-```
+```dax
 Subscriber Engagement Rate = 
 VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
 VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
@@ -311,7 +311,7 @@ RETURN subscriberEngRate
 
 - Views Per Subscriber:
 
-```
+```dax
 Views Per Subscriber = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
 VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
