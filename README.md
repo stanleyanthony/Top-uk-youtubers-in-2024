@@ -30,7 +30,7 @@
 
 - The pain point
 
-TheHead of marketing wants to find out who are the top YouTubers in the United Kingdon, as this will help the marketing team make informed decisions on which YouTuber will be best to run marketing campaign and partnerships with throughout the year.
+The Head of marketing wants to find out who are the top YouTubers in the United Kingdon, as this will help the marketing team make informed decisions on which YouTuber will be best to run marketing campaign and partnerships with throughout the year.
 
 - The ideal solution
 
