@@ -180,14 +180,14 @@ Here are the SQL query data quality tests i conducted:
 
 ```
 # Count the total number of records (or rows) are in the SQL view
-```
+
 ```SQL
 SELECT
     COUNT(*) AS no_of_rows
 FROM
     view_uk_youtubers_2024;
 ```
-
+```
 2. Column count check
 ```
 /*
