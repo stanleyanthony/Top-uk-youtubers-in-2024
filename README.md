@@ -223,7 +223,8 @@ WHERE
 #### 2. Group by the channel name
 #### 3. Filter for groups with more than one row
 
-```SQL -- 1.
+```SQL
+-- 1.
 SELECT
     channel_name,
     COUNT(*) AS duplicate_count
@@ -256,7 +257,7 @@ The Dax measures used to develop the dashboard
 
 - Total Subscribers (M):
 
-```
+```DAX
 Total Subscribers (M) = 
 VAR million = 1000000
 VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
